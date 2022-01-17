@@ -5,6 +5,7 @@ const bot = new aoi.Bot({
   prefix:"r.",
   intents: "all"
 })
+
 bot.status({
 text: "$djseval[client.users.cache.size;yes] usuarios | $djseval[client.guilds.cache.size;yes] Servidores ;)",
 type: "WATCHING",
